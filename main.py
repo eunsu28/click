@@ -5,3 +5,5 @@ import urllib.request
 
 URL = "https://www.instagram.com/dlwlrma/"
 
+driver = webdriver.Chrome("chromedriver")
+driver.get(URL)
