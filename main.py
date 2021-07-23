@@ -4,6 +4,8 @@ from time import sleep
 import urllib.request 
 
 URL = "https://www.instagram.com/dlwlrma/"
+password = input("password: ")
+email = "ayay.e2008@gmail.com"
 
 driver = webdriver.Chrome("/Users/kim-eunsu/Desktop/click/chromedriver")
 driver.get(URL)
