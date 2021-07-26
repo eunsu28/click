@@ -16,5 +16,9 @@ facebook_login_btn = driver.find_element_by_xpath('//*[@id="loginForm"]/div/div[
 sleep(5) 
 facebook_login_btn.click()
 
+print(password)
+
+driver.close()
+
 
 
