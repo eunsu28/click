@@ -18,7 +18,6 @@ facebook_login_btn.click()
 
 print(password)
 
-#hololo
 driver.close()
 
 
